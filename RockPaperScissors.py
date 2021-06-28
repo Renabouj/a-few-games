@@ -1,19 +1,3 @@
-'''def join_name(names):
-    string = ""
-    for index, name in enumerate(names):
-        if index > 0:
-            string += ', '
-        if index == len(names) - 1:
-            string += "and "
-        string += name
-    return string
-
-def introduce(title, names):
-    message = f'{title}: {join_name(names)}'
-    return message
-frase = introduce("My family",['Renato', 'Duda', 'Rosileia'])
-print(frase)
-'''
 import random
 
 OPTIONS = ['Rock', 'Paper', 'Scissors']
